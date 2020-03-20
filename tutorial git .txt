@@ -1,0 +1,11 @@
+GIT
+Configurações:
+Nome :  git config --global user.name "..."
+Email :  git config --global user.email "..."
+
+Abrir pasta : cd web/ 
+Adicionar : git add .
+Comentar  :git commit -m "comentario"
+Uppar     :git push -u origin master 
+
+git pull (puxa do site pro pc, com a pasta ja clonada)
