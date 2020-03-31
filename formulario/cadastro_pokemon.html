@@ -1,0 +1,165 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Cadastro pokemo</title>
+</head>
+
+<body>
+
+    <main>
+
+        <section>
+            <h2>Cadastro Pokemon</h2>
+
+            <form>
+                <div id="numero">
+                    <label for="numero">Número:</label>
+                    <input type="number" value="0">
+                </div>
+
+                <div id="nome">
+                    <label for="nome">Nome:</label>
+                    <input type="text" value="">
+                </div>
+
+                <div id="tipo1">
+                    <label for="tipo1">Tipo 1:</label>
+                    <select name="tipo1" id="tipo1">
+                        <option value="nenhum">- Selecione -</option>
+                        <option value="aço">Aço</option>
+                        <option value="agua">Água</option>
+                        <option value="dragao">Dragão</option>
+                        <option value="eletrico">Elétrico</option>
+                        <option value="fada">Fada</option>
+                        <option value="fantasma">Fantasma</option>
+                        <option value="fogo">Fogo</option>
+                        <option value="gelo">Gelo</option>
+                        <option value="lutador">Lutador</option>
+                        <option value="normal">Normal</option>
+                        <option value="pedra">Pedra</option>
+                        <option value="planta">Planta</option>
+                        <option value="psiquico">Psíquico</option>
+                        <option value="sombrio">Sombrio</option>
+                        <option value="terra">Terra</option>
+                        <option value="venenoso">Venenoso</option>
+                        <option value="voador">Voador</option>
+                    </select>
+                </div>
+
+                <div id="tipo2">
+                    <label for="tipo2">Tipo 2:</label>
+                    <select name="tipo2" id="tipo2">
+                        <option value="nenhum">- Selecione -</option>
+                        <option value="aço">Aço</option>
+                        <option value="agua">Água</option>
+                        <option value="dragao">Dragão</option>
+                        <option value="eletrico">Elétrico</option>
+                        <option value="fada">Fada</option>
+                        <option value="fantasma">Fantasma</option>
+                        <option value="fogo">Fogo</option>
+                        <option value="gelo">Gelo</option>
+                        <option value="lutador">Lutador</option>
+                        <option value="normal">Normal</option>
+                        <option value="pedra">Pedra</option>
+                        <option value="planta">Planta</option>
+                        <option value="psiquico">Psíquico</option>
+                        <option value="sombrio">Sombrio</option>
+                        <option value="terra">Terra</option>
+                        <option value="venenoso">Venenoso</option>
+                        <option value="voador">Voador</option>
+                    </select>
+                </div>
+
+                <div id="total">
+                    <label for="total">total:</label>
+                    <input type="number" value="">
+                </div>
+
+                <div id="hp">
+                    <label for="hp">HP:</label>
+                    <input type="number" value="1" min="1" max="255">
+                </div>
+
+                <div id="ataque">
+                    <label for="ataque">Ataque:</label>
+                    <input type="number" value="0">
+                </div>
+
+                <div id="defesa">
+                    <label for="defesa">Defesa:</label>
+                    <input type="number" value="0">
+                </div>
+
+                <div id="ataque_especial">
+                    <label for="ataque_especial">Ataque Especial:</label>
+                    <input type="number" value="0">
+                </div>
+
+                <div id="defesa_especial">
+                    <label for="defesa_especial">Defesa Especial:</label>
+                    <input type="number" value="0">
+                </div>
+
+                <div id="velocidade">
+                    <label for="velocidade">Velocidade:</label>
+                    <input type="number" value="0">
+                </div>
+
+                <div id="geracao">
+                    <label for="geracao">Geração:</label>
+                    <input type="number" value="1" min="1" max="7">
+                </div>
+
+                <div id="lendario">
+                    <fieldset>
+                        <legend>O pokemon e lendario?</legend>
+                        <ul>
+                            <li>
+                                <input type="radio" name="lendario" id="sim" value="sim">
+                                <label for="sim">Sim</label>
+                            </li>
+
+                            <li>
+                                <input type="radio" name="lendario" id="nao" value="nao">
+                                <label for="nao">Não</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </div>
+
+                <div id="cor">
+                    <label for="cor">Cor:</label>
+                    <input type="color" name="cor" id="cor">
+                </div>
+
+                <div id="altura_m">
+                    <label for="altura_m">Altura "m":</label>
+                    <input type="number" value="0">
+                </div>
+
+                <div id="peso_m">
+                    <label for="peso_kg">Peso "kg":</label>
+                    <input type="number" value="0">
+                </div>
+
+                <div id="taxa_captura">
+                    <label for="taxa_captura">Taxa de captura:</label>
+                    <input type="number" value="0" min="0" max="255">
+                </div>
+
+                <div>
+                    <button type="reset">Limpar</button>
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+</body>
+
+</html>
